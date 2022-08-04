@@ -98,8 +98,8 @@ p{
 }
 .call a:hover{
     
-background-color: #F9DEC9;
-}
+    background-image: linear-gradient(90deg, #ffd1ae 0%, #3a405a 99%, #9a8f92 100%);
+        }
 
 section{
     
@@ -123,9 +123,12 @@ section#certificados{
     align-items: center;
     padding-left: 100px;
     grid-gap: 10px;
+    background-image: url(../Multimedia/stacked-waves-haikei.svg);
     background-size: contain;
 }
-
+.sec1 :hover{
+    transform: scale(2,2);
+}
 .cv{
     grid-area: cv;
     width: 200px;
@@ -147,7 +150,7 @@ section#certificados{
 }
 .cv a:hover{
     background-color: #ffd1ae;
-    
+    background-image: linear-gradient(90deg, #ffd1ae 0%, #3a405a 99%, #9a8f92 100%);
     }
 
 section#aptitudes{
@@ -162,9 +165,12 @@ section#aptitudes{
     align-items: center;
     padding-left: 300px;
     grid-gap: 20px;
-   
+    background-image: url(../Multimedia/stacked-waves-haikei.svg);
+    background-size: contain;
 }
-
+.sec2 :hover{
+    transform: scale(2,2);
+}
 footer{
     grid-area: footer;
     background-color: #3A405A;
@@ -301,10 +307,11 @@ footer .redes i:hover{
     .item4{
         grid-area: item4;
     }
-    .cv{
+        .cv{
         grid-area: cv;
         width: 200px;
         margin-top: 50px;
+
     }
     #item{
         grid-area: item;
