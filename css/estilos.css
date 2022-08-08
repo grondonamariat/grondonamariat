@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2? family= Abel &familia = Baile + Guión & display=swap');
 *{
     margin: 0%;
     padding: 0%;
@@ -6,100 +7,43 @@
 html{
     scroll-behavior: smooth;
 }
-#grilla{
-   
-    display: grid;
-    grid-template-areas: 
-    "header header header header"
-    "main main publicidad publicidad"
-    "certificados certificados certificados certificados"
-    "sec1 sec1 sec1 sec1"
-    "cv1 cv1 cv1 cv"
-    "aptitudes aptitudes aptitudes aptitudes"
-    "sec2 sec2 sec2 sec2"
-    "footer footer footer footer";
-    grid-template-rows: 5% 35% 10% 23% 10% 10% 25% 300%;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+.navbar{
+    background-color: #3A405A;
+    text-shadow: 1px 1px 5px black;    
+    font-size: 20px;
 }
-
-header{
-    grid-area: header;
-    background-color: #f9fafc;
-    align-items: center;
-    color: #3A405A;
-    font-family: sans-serif;
-    width: 100%;
-    height: 80px
+.nav-item{
+    padding: 20px;
 }
-
-.barra{
-    float: right;
-    margin-top: 20px;
-    margin-right: 0px;
-    padding: 0px;
+.nleft{
+    background-color: #ffd1ae;
+    background-position: center;
+    background-size: cover;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-image: url(../Multimedia/student-849822_1920.jpg);
 }
-.barra ul li{
-    list-style: none;
-    display: inline-block;
-    margin-left: 100px;
+.nrigth{
+    background-color: #ffd1ae;
 }
-.barra a{
-    text-decoration: none;
-    color: #3A405A;
+.nrigth h2{
+    padding-top: 30px;
     font-size: 24px;
-    text-transform: capitalize;
+    margin-top: 0%;
 }
-.barra a:hover{
-    color: #9A8F92;
-}
-main{
-    grid-area: main;
-    background-color: #F9DEC9;
-    padding: 35px;
-    padding-left: 70px;
-}
-aside{
-    grid-area: publicidad;
-    background-color: #F9DEC9;
-    display: grid; 
-}
-h1{
-    color: #3A405A;
-    font-family: sans-serif;
-    font-size: 30px;
-    margin-bottom: 20px;
-    margin-right: 100px;
-    margin-top: 40px;
-    text-align: center;
-}
-p{
-    margin-bottom: 25px;
-    width: 80%;
-    text-align: justify;
-    margin-left: 30px;
-
-}
-.call{
-    width: 40%;
-    color: #3A405A;
-    
-}
-.call a{
-    font-family: sans-serif;
+.nrigth p{
     font-size: 16px;
-    padding: 10px;
-    text-decoration: none;
-    text-transform: uppercase;
-    border: 2px; 
-    border-radius: 5px;
-    border-style: solid;
-    border-color: #ffd1ae;
-    color: #3A405A;
+    padding-top: 30px;
+    text-align: justify;
+    margin-top: 0%;
 }
-.call a:hover{
+.btn{
+     background-color: #ffd1ae;
+     
+}
+.btn:hover{
     
-    background-image: linear-gradient(90deg, #ffd1ae 0%, #3a405a 99%, #9a8f92 100%);
-        }
+    background-image: radial-gradient( circle 755px at 10.1% 95.3%,  rgba(242,188,141,1) 0%, rgba(242,159,141,1) 100.2% );        }
 
 section{
     
@@ -108,25 +52,16 @@ section{
     font-style: normal;
     padding-left: 35px;
     margin-top: 50px;
+    margin-bottom: 10%;
     color: #3A405A
 }
 
 section#certificados{
     grid-area: certificados;
     margin-left: 40px;
+    margin-top: 10%;
 }
-.sec1{
-    grid-area: sec1;
-    display: flex;
-    flex-flow: nowrap;
-    justify-content: left;
-    align-items: center;
-    padding-left: 100px;
-    grid-gap: 10px;
-    background-image: url(../Multimedia/stacked-waves-haikei.svg);
-    background-size: contain;
-}
-.sec1 :hover{
+.certificados :hover{
     transform: scale(2,2);
 }
 .cv{
@@ -156,6 +91,7 @@ section#certificados{
 section#aptitudes{
     grid-area: aptitudes;
     margin-left: 60px;
+    margin-top: 20%;
 }
 .sec2{
     display: flex;
@@ -167,6 +103,7 @@ section#aptitudes{
     grid-gap: 20px;
     background-image: url(../Multimedia/stacked-waves-haikei.svg);
     background-size: contain;
+    margin-bottom: 10%;
 }
 .sec2 :hover{
     transform: scale(2,2);
