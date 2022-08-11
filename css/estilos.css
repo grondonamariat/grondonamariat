@@ -12,13 +12,12 @@ html{
     font-size: 24px;
 }
 .nav-item{
-    padding: 10px;
+    padding-left: 10%;
 }
 .nleft{
     background-color: #ffd1ae;
     background-position: center;
     background-size: cover;
-    padding-top: 30px;
     padding-bottom: 30px;
     background-image: url(../Multimedia/student-849822_1920.jpg);
 }
@@ -28,39 +27,41 @@ html{
 .nrigth h2{
     padding-top: 30px;
     font-size: 24px;
-    margin-top: 0%;
+    padding-left: 5%; 
 }
 .nrigth p{
     font-size: 16px;
     padding-top: 30px;
     text-align: justify;
-    margin-top: 0%;
+    padding-bottom: 10%;
+    padding-right: 5%;
+    padding-left: 5%;
 }
-
-section{
+main{
+    background-image: url(../Multimedia/stacked-steps-haikei.svg);
+    background-position: center;
+    background-size: cover;
+}
+.certificados{
+    padding-top: 5%;
     
+}
+section{   
     font-size: 30px;
     font-family: sans-serif;
     font-style: normal;
     padding-left: 35px;
-    margin-top: 50px;
-    margin-bottom: 10%;
     color: #3A405A
 }
-
-section#certificados{
-    grid-area: certificados;
-    margin-left: 40px;
-    margin-top: 10%;
+.titulos{
+    margin-left: 18%;
+    margin-right: 18%;
+    margin-top: 6%;
+    
 }
-.certificados :hover{
-    transform: scale(2,2);
-}
-.boton{
-    grid-area: cv;
-    width: 200px;
-    color: #3A405A;
-    margin-top: 50px;
+.titulos :hover{
+    transform: scale(1.2,1.2); 
+    transition: 1s;
 }
 .boton a{
     font-family: sans-serif;
@@ -68,37 +69,25 @@ section#certificados{
     padding: 10px;
     text-decoration: none;
     text-transform: uppercase;
-    border: 2px; 
+    border: 2px solid #3A405A; 
     border-radius: 5px;
-    border-style: solid;
-    border-color: #ffd1ae;
-    color: #3A405A;
+    color: black;
+    margin-right: 5%;
+    margin-top: 6%;
     float: right  
 }
 .boton a:hover{
     background-color: #ffd1ae;
-    background-image: linear-gradient(90deg, #ffd1ae 0%, #3a405a 99%, #9a8f92 100%);
-    }
-
-section#aptitudes{
-    grid-area: aptitudes;
-    margin-left: 60px;
-    margin-top: 20%;
+    background-image: linear-gradient(180deg, #f9dec9 0%, #ffd1ae 74%, #3a405a 100%);
 }
-.sec2{
-    display: flex;
-    flex-flow: nowrap;
-    justify-content: left;
-    grid-area: sec2;
-    align-items: center;
-    padding-left: 300px;
-    grid-gap: 20px;
-    background-image: url(../Multimedia/stacked-waves-haikei.svg);
-    background-size: contain;
+.aptitudes{
+    margin-top: 15%;
     margin-bottom: 10%;
 }
-.sec2 :hover{
-    transform: scale(2,2);
+.programas{
+    margin-left: 15%;
+    margin-bottom: 10%;
+    margin-right: 10%;
 }
 footer{
     grid-area: footer;
@@ -118,13 +107,11 @@ footer p{
      font-size: 22px;
      padding: 20px;
 }
-
 footer .redes i{
     color: white;
     letter-spacing: 15px;
     font-size: 300%;   
 }
-
 footer .redes i:hover{
     color: #F9DEC9;
 }
@@ -139,7 +126,7 @@ footer .redes i:hover{
     right: 20px;
     border-radius: 50%;
     font-size: 25px;
-    color: #3A405A;
+    color: black;
 }
 .subir :hover{
     background-color: #ffd1ae;
@@ -148,126 +135,5 @@ footer .redes i:hover{
     width: 50px;
     border-radius: 50%;
     line-height: 50px;
-}
-@media (max-width: 320px){
-    
-    #grilla{
-        grid-template-columns: 1fr;
-        grid-template-rows: auto; 
-        grid-template-areas: 
-        "header"
-        "main"
-        "publicidad"
-        "certificados"
-        "item1"
-        "item2"
-        "item3"
-        "item4"
-        "cv"
-        "aptitudes"
-        "sec2"
-        "footer";
-    
-    }
-    header{
-        grid-area: header;
-        padding-left: 20px;
-        margin-top: 5px;
-        width: 320px;
-        height: 100px
-    }
-    .barra ul li{
-        margin-left: 5px;
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr 1fr;
-    }
-    .barra a{
-        padding-right: 9px;
-        font-size: 16px;
-        text-transform: capitalize;
-    }
-    main{
-        grid-area: main;
-        padding: 10px;
-        padding-left: 40px;
-        height: 100%;
-        padding-top: 25px;
-    }
-    aside{
-        grid-area: publicidad;
-        height: 380px;
-    }
-    h1{
-        font-size: 24px;
-        margin-bottom: 18px;
-        margin-right: 5px;
-        margin-top: 20px;
-        text-align: center;
-    }
-    p{
-        margin-bottom: 25px;
-        width: 80%;
-        text-align: justify;
-        margin-left: 30px;
-        font-size: 14px;
-    
-    }
-    .call a{
-        font-size: 14px;
-        margin-left: 20px;
-        padding: 8px;
-        }
-
-    section#certificados{
-        grid-area: certificados;
-        margin-left: 5px;
-        font-size: 20px;
-        }
-    .item1{
-        grid-area: item1;
-
-    }
-    .item2{
-        grid-area: item2;
-    }
-    .item3{
-        grid-area: item3;
-    }
-    .item4{
-        grid-area: item4;
-    }
-        .cv{
-        grid-area: cv;
-        width: 200px;
-        margin-top: 50px;
-
-    }
-    #item{
-        grid-area: item;
-    }
-    section#aptitudes{
-        grid-area: aptitudes;
-        margin-left: 5px;
-        font-size: 20px;
-    }
-    .sec2{
-        grid-area: sec2;
-        margin-left: 50px;
-        grid-gap: 5px;
-        margin-bottom: 50px;
-    }
-    .footer{
-        grid-area: footer;
-    }
-    footer p{
-        margin-left: 15px;
-        font-size: 16px;
-        padding: 10px;
-    }
-    footer .redes i{
-        font-size: 200%; 
-    }  
-    .subir{
-        display: none;
-    }
+    color: black;
 }

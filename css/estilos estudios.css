@@ -11,18 +11,39 @@ html{
     text-shadow: 1px 1px 5px black;    
 }
 .nav-item{
-font-size: 24px;
-padding: 10px;
+    font-size: 24px;
+    padding: 10px;
 }
 main{
-    background-color: #F9DEC9;
-    padding: 20px;
+    background-image: url(../Multimedia/stacked-steps-haikei\ \(3\).svg);
+    background-position: center;
+    background-size: cover;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+img{
+    margin-top: 20%;
+    margin-left: 20%;
+    border: px #3A405A solid;
+    margin-bottom: 10%;
 }
 h1{
-    margin-bottom: 50px;
+    padding-top: 20%;
+    font-size: 90px;
+}
+h2{
+    margin: 9%;
+    font-size: 25px;
+    border: 2px #3A405A solid;
+    padding: 5px;
+    text-align: center;
+    background-color: #f9dec9;
+    
+
 }
 .sec2{
-    margin-top: 100px;
+    margin-top: 50px;
+    padding-bottom: 30%;
 }
 .jumbotron{
     background-color: #3A405A;
@@ -52,8 +73,7 @@ h1{
     color: #3A405A;
 }
 .subir :hover{
-    background-color: #ffd1ae;
-    background-image: linear-gradient(90deg, #ffd1ae 0%, #3a405a 99%, #9a8f92 100%);
+    background-image: linear-gradient(62deg, #ffd1ae 0%, #f9dec9 81%);
     height: 50px;
     width: 50px;
     border-radius: 50%;
