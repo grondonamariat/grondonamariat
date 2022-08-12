@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2? family= Abel & family= Dancing+Script & display=swap');
+
+$color1: #ffd1ae;
+$color2: #3A405A;
+$color3: #F9DEC9;
+$font1: sans-serif;
+$font2: 'Abel', sans-serif;
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.navbar {
+    background-color: $color2;
+    text-shadow: 1px 1px 5px black;
+    font-size: 24px;
+
+    .item {
+        padding-left: 10%;
+    }
+}
+
+.nleft {
+    background-color: $color1;
+    background-position: center;
+    background-size: cover;
+    padding-bottom: 30px;
+    background-image: url(../Multimedia/student-849822_1920.jpg);
+}
+
+.nrigth {
+    background-color: $color1;
+
+    h2 {
+        padding-top: 30px;
+        font-size: 24px;
+        padding-left: 5%;
+    }
+
+    p {
+        font-size: 16px;
+        padding-top: 30px;
+        text-align: justify;
+        padding-bottom: 10%;
+        padding-right: 5%;
+        padding-left: 5%;
+    }
+}
+
+main {
+    background-image: url(../Multimedia/stacked-steps-haikei.svg);
+    background-position: center;
+    background-size: cover;
+}
+
+.certificados {
+    padding-top: 5%;
+
+}
+
+section {
+    font-size: 30px;
+    font-family: $font2;
+    font-style: normal;
+    padding-left: 35px;
+    color: $color2;
+}
+
+.titulos {
+    margin-left: 18%;
+    margin-right: 18%;
+    margin-top: 6%;
+
+}
+
+.titulos :hover {
+    transform: scale(1.2, 1.2);
+    transition: 1s;
+}
+
+.boton a {
+    font-family: $font1;
+    font-size: 16px;
+    padding: 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    border: 2px solid $color2;
+    border-radius: 5px;
+    color: black;
+    margin-right: 5%;
+    margin-top: 6%;
+    float: right
+}
+
+.boton a:hover {
+    background-color: $color1;
+    background-image: linear-gradient(180deg, #f9dec9 0%, #ffd1ae 74%, #3a405a 100%);
+}
+
+.aptitudes {
+    margin-top: 15%;
+    margin-bottom: 10%;
+}
+
+.programas {
+    margin-left: 15%;
+    margin-bottom: 10%;
+    margin-right: 10%;
+}
+
+footer {
+    grid-area: footer;
+    background-color: $color2;
+    color: white;
+    width: 100%;
+    height: 300px;
+    padding-top: 50px;
+    text-align: center;
+
+    p {
+        margin-left: 100px;
+        text-align: center;
+        text-transform: uppercase;
+        font-family: $font1;
+        font-size: 22px;
+        padding: 20px;
+    }
+
+    .redes i {
+        color: white;
+        letter-spacing: 15px;
+        font-size: 300%;
+    }
+}
+
+footer .redes i:hover {
+    color: $color3;
+}
+
+.subir {
+    height: 50px;
+    width: 50px;
+    background-color: $color3;
+    text-align: center;
+    line-height: 50px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    border-radius: 50%;
+    font-size: 25px;
+    color: black;
+}
+
+.subir :hover {
+    background-color: $color1;
+    background-image: linear-gradient(90deg, #ffd1ae 0%, #3a405a 99%, #9a8f92 100%);
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    line-height: 50px;
+    color: black;
+}
