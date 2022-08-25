@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2? family= Abel & family= Dancing+Script & display=swap");
 * {
   margin: 0%;
   padding: 0%;
@@ -12,18 +13,19 @@ html {
   background-color: #3A405A;
   text-shadow: 1px 1px 5px black;
   font-size: 24px;
+}
+
+.navbar .item {
   padding-left: 10%;
 }
+
 main {
   background-image: url(../Multimedia/stacked-steps-haikei\(4\).svg);
   background-position: center;
   background-size: cover;
   padding-bottom: 10%;
-  color: #3A405A;
-  letter-spacing: 15px;
-  font-size: 300%;
-  padding-left: 20px;
 }
+
 h1 {
   padding-top: 10%;
 }
@@ -31,6 +33,13 @@ h1 {
 h2 {
   padding-top: 35%;
   font-size: 24px;
+}
+
+main .redes i {
+  color: #3A405A;
+  letter-spacing: 15px;
+  font-size: 300%;
+  padding-left: 20px;
 }
 
 main .redes i:hover {
@@ -54,16 +63,23 @@ footer {
   height: 300px;
   padding-top: 50px;
   text-align: center;
+}
+
+footer p {
   margin-left: 100px;
   text-align: center;
   text-transform: uppercase;
   font-family: sans-serif;
   font-size: 22px;
   padding: 20px;
+}
+
+footer .redes i {
   color: white;
   letter-spacing: 15px;
   font-size: 300%;
 }
+
 footer .redes i:hover {
   color: #F9DEC9;
 }
@@ -90,4 +106,4 @@ footer .redes i:hover {
   border-radius: 50%;
   line-height: 50px;
   color: black;
-}/*# sourceMappingURL=estilos contactos.css.map */
+}/*# sourceMappingURL=estilos contacto.css.map */

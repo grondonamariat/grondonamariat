@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2? family= Abel & family= Dancing+Script & display=swap");
 * {
   margin: 0%;
   padding: 0%;
@@ -24,12 +25,13 @@ main {
   background-size: cover;
   padding-left: 8%;
   padding-right: 8%;
+  padding-bottom: 200px;
 }
 
 img {
   margin-top: 20%;
   margin-left: 20%;
-  border: 2px #3A405A solid;
+  border: px #3A405A solid;
   margin-bottom: 10%;
 }
 
@@ -38,18 +40,95 @@ h1 {
   font-size: 90px;
 }
 
-h2 {
-  margin: 9%;
-  font-size: 25px;
-  border: 2px #3A405A solid;
-  padding: 5px;
+.btn--20px {
+  background-color: #FDF4ED;
+  height: 60px;
+  border: 2px solid #3A405A;
   text-align: center;
-  background-color: #ffd1ae;
+  font-size: 20px;
+  line-height: 50px;
+  color: #3A405A;
+  margin: 20px;
+  padding: 5px;
+  margin-top: 60px;
 }
 
-.sec2 {
-  margin-top: 50px;
-  padding-bottom: 30%;
+.btn--22px {
+  background-color: #FBE8DA;
+  height: 60px;
+  border: 2px solid #3A405A;
+  text-align: center;
+  font-size: 22px;
+  line-height: 50px;
+  color: #3A405A;
+  margin: 20px;
+  padding: 5px;
+  margin-top: 60px;
+}
+
+.btn--25px {
+  background-color: #F9DEC9;
+  height: 60px;
+  border: 2px solid #3A405A;
+  text-align: center;
+  font-size: 25px;
+  line-height: 50px;
+  color: #3A405A;
+  margin: 20px;
+  padding: 5px;
+  margin-top: 60px;
+}
+
+.btn--35px {
+  background-color: #F7D2B6;
+  height: 60px;
+  border: 2px solid #3A405A;
+  text-align: center;
+  font-size: 35px;
+  line-height: 50px;
+  color: #3A405A;
+  margin: 20px;
+  padding: 5px;
+  margin-top: 60px;
+}
+
+.btn--40px {
+  background-color: #F5C7A3;
+  height: 60px;
+  border: 2px solid #3A405A;
+  text-align: center;
+  font-size: 40px;
+  line-height: 50px;
+  color: #3A405A;
+  margin: 20px;
+  padding: 5px;
+  margin-top: 60px;
+}
+
+.btn--42px {
+  background-color: #F1B07E;
+  height: 60px;
+  border: 2px solid #3A405A;
+  text-align: center;
+  font-size: 42px;
+  line-height: 50px;
+  color: #3A405A;
+  margin: 20px;
+  padding: 5px;
+  margin-top: 60px;
+}
+
+.btn--45px {
+  background-color: #EFA56C;
+  height: 60px;
+  border: 2px solid #3A405A;
+  text-align: center;
+  font-size: 45px;
+  line-height: 50px;
+  color: #3A405A;
+  margin: 20px;
+  padding: 5px;
+  margin-top: 60px;
 }
 
 .jumbotron {

@@ -25,16 +25,18 @@ html{
 .trabajo{
     background-color: #C96868;
 }
+@mixin sizes($font, $colour) {
+    font-size: $font;
+    color: $colour;
+}
 .jumbotron{
+    @include sizes(20px , white);
     background-color: $color2;
-    color: white;
     text-align: center;
-    font-size: 20px;
 }
 .jumbotron .redes i{
-    color: white;
-    letter-spacing: 15px;
-    font-size: 300%;   
+    @include sizes(300% , white);
+    letter-spacing: 15px; 
 }
 .jumbotron .redes i:hover{
     color: $color3;
