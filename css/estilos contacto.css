@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2? family= Abel & family= Dancing+Script & display=swap");
+@import url("https://fonts.googleapis.com/css2? family= Abel & family= Cookie & display=swap");
 * {
   margin: 0%;
   padding: 0%;
@@ -11,12 +11,11 @@ html {
 
 .navbar {
   background-color: #3A405A;
-  text-shadow: 1px 1px 5px black;
-  font-size: 24px;
 }
-
-.navbar .item {
-  padding-left: 10%;
+.navbar .nav-item {
+  font-size: 24px;
+  text-shadow: 1px 1px 5px black;
+  margin-left: 30px;
 }
 
 main {
@@ -31,34 +30,31 @@ h1 {
 }
 
 h2 {
-  padding-top: 35%;
-  font-size: 24px;
+  padding-top: 45%;
+  font-size: 28px;
 }
 
 main .redes i {
   color: #3A405A;
-  letter-spacing: 15px;
-  font-size: 300%;
-  padding-left: 20px;
+  font-size: 350%;
+  margin-left: 15%;
 }
 
 main .redes i:hover {
   color: #9a8f92;
 }
 
-.btn {
+.btn, footer {
   background-color: #3A405A;
-  border: #3A405A;
+  color: white;
 }
 
-.btn :hover {
-  background-color: #9a8f92;
+.btn :hover, footer :hover {
+  color: white;
 }
 
 footer {
   grid-area: footer;
-  background-color: #3A405A;
-  color: white;
   width: 100%;
   height: 300px;
   padding-top: 50px;

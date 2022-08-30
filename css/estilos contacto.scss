@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2? family= Abel & family= Dancing+Script & display=swap');
-
+@import url('https://fonts.googleapis.com/css2? family= Abel & family= Cookie & display=swap');
 $color1: #ffd1ae;
 $color2: #3A405A;
 $color3: #F9DEC9;
@@ -18,12 +17,12 @@ html {
 
 .navbar {
     background-color: $color2;
-    text-shadow: 1px 1px 5px black;
-    font-size: 24px;
-}
-
-.navbar .item {
-    padding-left: 10%;
+    
+    .nav-item{
+        font-size: 24px;
+        text-shadow: 1px 1px 5px black;
+        margin-left: 30px;
+    }
 }
 
 main {
@@ -38,15 +37,14 @@ h1 {
 }
 
 h2 {
-    padding-top: 35%;
-    font-size: 24px;
+    padding-top: 45%;
+    font-size: 28px;
 }
 
 main .redes i {
     color: $color2;
-    letter-spacing: 15px;
-    font-size: 300%;
-    padding-left: 20px;
+    font-size: 350%;
+    margin-left: 15%;
 }
 
 main .redes i:hover {
@@ -55,19 +53,18 @@ main .redes i:hover {
 
 .btn {
     background-color: $color2;
-    border: $color2;
+    color: white;
 }
 
 .btn :hover {
-    background-color: #9a8f92;
+    color: white;
 }
 
 
 
 footer {
     grid-area: footer;
-    background-color: $color2;
-    color: white;
+    @extend .btn;
     width: 100%;
     height: 300px;
     padding-top: 50px;

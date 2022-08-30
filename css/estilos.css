@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2? family= Abel & family= Cookie & display=swap");
 * {
   margin: 0%;
   padding: 0%;
@@ -10,19 +11,16 @@ html {
 
 .navbar {
   background-color: #3A405A;
-  text-shadow: 1px 1px 5px black;
-  font-size: 24px;
 }
-.navbar .item {
-  padding-left: 10%;
+.navbar .nav-item {
+  font-size: 24px;
+  text-shadow: 1px 1px 5px black;
+  margin-left: 30px;
 }
 
 .nleft {
   background-color: #ffd1ae;
-  background-position: center;
-  background-size: cover;
-  padding-bottom: 30px;
-  background-image: url(../Multimedia/student-849822_1920.jpg);
+  padding: 40px;
 }
 
 .nrigth {
@@ -30,16 +28,12 @@ html {
 }
 .nrigth h2 {
   padding-top: 30px;
-  font-size: 24px;
-  padding-left: 5%;
+  padding-left: 20%;
 }
 .nrigth p {
-  font-size: 16px;
-  padding-top: 30px;
-  text-align: justify;
-  padding-bottom: 10%;
+  font-size: 22px;
   padding-right: 5%;
-  padding-left: 5%;
+  font-family: "Cookie", cursiva;
 }
 
 main {
@@ -53,11 +47,11 @@ main {
 }
 
 section {
+  color: #3A405A;
   font-size: 30px;
   font-family: "Abel", sans-serif;
   font-style: normal;
   padding-left: 35px;
-  color: #3A405A;
 }
 
 .titulos {
@@ -72,14 +66,14 @@ section {
 }
 
 .boton a {
-  font-family: sans-serif;
+  color: black;
   font-size: 16px;
+  font-family: sans-serif;
   padding: 10px;
   text-decoration: none;
   text-transform: uppercase;
   border: 2px solid #3A405A;
   border-radius: 5px;
-  color: black;
   margin-right: 5%;
   margin-top: 6%;
   float: right;
@@ -101,21 +95,26 @@ section {
   margin-right: 10%;
 }
 
+.programas :hover {
+  transform: scale(1.1, 1.1);
+  transition: 1s;
+}
+
 footer {
   grid-area: footer;
   background-color: #3A405A;
-  color: white;
   width: 100%;
   height: 300px;
   padding-top: 50px;
   text-align: center;
 }
 footer p {
+  color: white;
+  font-size: 22px;
   margin-left: 100px;
   text-align: center;
   text-transform: uppercase;
   font-family: sans-serif;
-  font-size: 22px;
   padding: 20px;
 }
 footer .redes i {
@@ -129,6 +128,8 @@ footer .redes i:hover {
 }
 
 .subir {
+  color: black;
+  font-size: 25px;
   height: 50px;
   width: 50px;
   background-color: #F9DEC9;
@@ -138,8 +139,6 @@ footer .redes i:hover {
   bottom: 20px;
   right: 20px;
   border-radius: 50%;
-  font-size: 25px;
-  color: black;
 }
 
 .subir :hover {

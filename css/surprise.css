@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2? family= Abel & family= Dancing+Script & display=swap");
+@import url("https://fonts.googleapis.com/css2? family= Abel & family= Cookie & display=swap");
 * {
   margin: 0%;
   padding: 0%;
@@ -11,32 +11,36 @@ html {
 
 .navbar {
   background-color: #3A405A;
-  text-shadow: 1px 1px 5px black;
+}
+.navbar .nav-item {
   font-size: 24px;
+  text-shadow: 1px 1px 5px black;
+  margin-left: 30px;
 }
 
-.nav-item {
-  padding: 10px;
-}
-
-.trabajo {
-  background-color: #C96868;
-}
-
-.jumbotron {
-  font-size: 20px;
-  color: white;
+footer {
+  grid-area: footer;
   background-color: #3A405A;
+  width: 100%;
+  height: 300px;
+  padding-top: 50px;
   text-align: center;
 }
-
-.jumbotron .redes i {
-  font-size: 300%;
+footer p {
+  color: white;
+  margin-left: 100px;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: sans-serif;
+  font-size: 22px;
+  padding: 20px;
+}
+footer .redes i {
   color: white;
   letter-spacing: 15px;
+  font-size: 300%;
 }
-
-.jumbotron .redes i:hover {
+footer :hover {
   color: #F9DEC9;
 }
 
@@ -51,9 +55,8 @@ html {
   right: 20px;
   border-radius: 50%;
   font-size: 25px;
-  color: #3A405A;
+  color: black;
 }
-
 .subir :hover {
   background-color: #ffd1ae;
   background-image: linear-gradient(90deg, #ffd1ae 0%, #3a405a 99%, #9a8f92 100%);
@@ -61,4 +64,5 @@ html {
   width: 50px;
   border-radius: 50%;
   line-height: 50px;
-}/*# sourceMappingURL=estilos trabajos.css.map */
+  color: black;
+}/*# sourceMappingURL=surprise.css.map */
